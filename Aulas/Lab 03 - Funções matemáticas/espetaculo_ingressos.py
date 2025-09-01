@@ -1,3 +1,17 @@
+"""
+Faça um programa em python que receba o custo de um espetáculo teatral e o preço do ingresso
+desse espetáculo. Esse programa deve calcular e mostrar:
+
+a) A quantidade de convites que devem ser vendidos para que pelo menos o custo do espetáculo
+seja alcançado.
+
+b) A quantidade de convites que devem ser vendidos para que se tenha um lucro de 23%.
+Observações:
+
+- nesta questão você poderá utilizar a função math.ceil(x) que retorna o menor inteiro maior ou igual
+a x como int
+"""
+
 import math
 
 custo_espetaculo = int(input("Digite o custo do espetáculo: "))

@@ -1,3 +1,9 @@
+"""
+Dado o preço de um produto (valor inteiro), elabore um programa que calcule e apresente a menor
+quantidade de notas, de cada valor, necessárias para efetuar o pagamento da compra desse produto.
+Considere como valores das notas: 1, 2, 5, 10, 20, 50 e 100
+"""
+
 valor = int(input("Digite o valor: R$ "))
 
 qtd_100 = valor // 100
